@@ -11,7 +11,7 @@ int main(void)
 	for (revz = 'z'; revz >= 'a'; revz--)
 	{
 		putchar(revz);
-000	}
+	}
 	putchar('\n');
 	return (0);
 }
