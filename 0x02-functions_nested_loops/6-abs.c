@@ -5,11 +5,13 @@
  * Return: 0 (successful)
  */
 
-int _abs(int)
+int _abs(int h)
 {
+
 	if (h < 0)
 	{
 		int abs_val;
+
 		abs_val = h * -1;
 		return (abs_val);
 	}
