@@ -4,7 +4,6 @@
  * _strcmp - main entry point
  * @s1: first string
  * @s2: second string
- * @m: comparison
  * Return: 0 suceessful
  */
 
