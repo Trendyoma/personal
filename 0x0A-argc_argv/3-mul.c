@@ -4,7 +4,7 @@
 /**
  * main - entry point
  * @argc: arguement count
- * @argc: arguement vector
+ * @argv: arguement vector
  * Return: 0 success
  */
 
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 		num1 = atoi(argv[1]);
-		num2 = atoi (argv[2]);
+		num2 = atoi(argv[2]);
 		multiple = num1 * num2;
 		printf("%d\n", multiple);
 		return (0);
