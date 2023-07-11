@@ -1,15 +1,15 @@
 #include "main.h"
 /**
  * _puts - main entry point
- * @s: string to stdout
+ * @str: string to stdout
  * Return: 0 successful
  */
 
-void _puts(char *s)
+void _puts(char *str)
 {
-	while (*s != '\0')
+	while (*str != '\0')
 	{
-		_putchar(*s++);
+		_putchar(*str++);
 	}
 	_putchar('\n');
 }
