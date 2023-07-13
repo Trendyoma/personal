@@ -1,1 +1,1 @@
-learning how to use c
+ learning malloc and free

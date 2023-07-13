@@ -1,25 +1,19 @@
+#ifndef MAIN_H
+#define MAIN_H
 int _putchar(char c);
 
-void print_alphabet(void);
+char *create_array(unsigned int size, char c);
 
-void print_alphabet_x10(void);
+int _putchar(char c);
 
-int _islower(int c);
+char *_strdup(char *str);
 
-int _isalpha(int c);
+char *str_concat(char *s1, char *s2);
 
-int print_sign(int n);
+int **alloc_grid(int width, int height);
 
-int _abs(int);
+void free_grid(int **grid, int height);
 
-int print_last_digit(int);
+char *argstostr(int ac, char **av);
 
-void jack_bauer(void);
-
-void times_table(void);
-
-int add(int, int);
-
-void print_to_98(int n);
-
-
+#endif
