@@ -8,4 +8,6 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 int _putchar(char c);
 #include <stdlib.h>
 #include <limits.h>
+#include <stdio.h>
+#include <string.h>
 #endif
