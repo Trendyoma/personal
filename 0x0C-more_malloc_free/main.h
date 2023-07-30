@@ -10,4 +10,7 @@ int _putchar(char c);
 #include <limits.h>
 #include <stdio.h>
 #include <string.h>
+void errors(void);
+int _strlen(char *s);
+int is_digit(char *s);
 #endif
